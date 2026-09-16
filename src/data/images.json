@@ -10,6 +10,7 @@
     },
     "about": {
       "prefer": [
+        "cargoloading",
         "paramount-about",
         "about"
       ],
@@ -17,6 +18,7 @@
     },
     "network": {
       "prefer": [
+        "shipsailing",
         "paramount-network",
         "network"
       ],
@@ -24,6 +26,7 @@
     },
     "control": {
       "prefer": [
+        "shipyard",
         "paramount-control",
         "control-tower"
       ],
@@ -35,12 +38,12 @@
         "ceo",
         "leadership"
       ],
-      "fallback": "/assets/img/ph-leadership.svg"
+      "fallback": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cderrrr.PNG-TKsWR2whliIOtEpFmtWzkISu9bKDzV.png"
     },
     "careers": {
       "prefer": [
-        "paramount-careers",
-        "careers"
+        "careers",
+        "paramount-careers"
       ],
       "fallback": "/assets/img/ph-careers.svg"
     },
@@ -53,8 +56,8 @@
     },
     "warehouse": {
       "prefer": [
-        "paramount-warehouse",
-        "warehouse"
+        "warehouse",
+        "paramount-warehouse"
       ],
       "fallback": "/assets/img/ph-warehouse.svg"
     },
@@ -69,6 +72,7 @@
   "serviceSlots": {
     "air-freight": {
       "prefer": [
+        "landinghero",
         "service-air",
         "air-freight"
       ],
@@ -76,6 +80,7 @@
     },
     "ocean-freight": {
       "prefer": [
+        "shipsailing",
         "service-ocean",
         "ocean-freight"
       ],
@@ -83,6 +88,7 @@
     },
     "road-haulage": {
       "prefer": [
+        "shipyard",
         "service-road",
         "road-haulage"
       ],
@@ -90,6 +96,7 @@
     },
     "rail-freight": {
       "prefer": [
+        "trainlogistics",
         "service-rail",
         "rail-freight"
       ],
@@ -97,6 +104,7 @@
     },
     "express-courier": {
       "prefer": [
+        "cargoloading",
         "service-express",
         "express-courier"
       ],
@@ -104,6 +112,7 @@
     },
     "warehousing": {
       "prefer": [
+        "warehouse",
         "service-warehousing",
         "warehousing"
       ],
@@ -113,6 +122,7 @@
   "heroSlides": [
     {
       "prefer": [
+        "landinghero",
         "hero-1",
         "paramount-hero-1"
       ],
@@ -120,6 +130,7 @@
     },
     {
       "prefer": [
+        "ship",
         "hero-2",
         "paramount-hero-2"
       ],
@@ -127,6 +138,7 @@
     },
     {
       "prefer": [
+        "shipsailing",
         "hero-3",
         "paramount-hero-3"
       ],
