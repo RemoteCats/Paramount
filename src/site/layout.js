@@ -205,8 +205,8 @@ function head({ title, description, noindex = false, styles = [] }) {
 function mark(className = 'brand-logo') {
   return `
       <picture class="${className} on-dark">
-        <source srcset="/assets/brand/paramount-mark-light.webp" type="image/webp" />
-        <img src="/assets/brand/paramount-mark-light.png" alt="" width="360" height="124" />
+        <source srcset="/assets/brand/paramount-mark.webp" type="image/webp" />
+        <img src="/assets/brand/paramount-mark.png" alt="" width="360" height="124" />
       </picture>
       <picture class="${className} on-light">
         <source srcset="/assets/brand/paramount-mark.webp" type="image/webp" />
@@ -217,8 +217,8 @@ function mark(className = 'brand-logo') {
 function logo(className = 'brand-logo') {
   return `
       <picture class="${className} on-dark">
-        <source srcset="/assets/brand/paramount-logo-light.webp" type="image/webp" />
-        <img src="/assets/brand/paramount-logo-light.png" alt="Paramount Shipping" width="560" height="383" />
+        <source srcset="/assets/brand/paramount-logo.webp" type="image/webp" />
+        <img src="/assets/brand/paramount-logo.png" alt="Paramount Shipping" width="560" height="383" />
       </picture>
       <picture class="${className} on-light">
         <source srcset="/assets/brand/paramount-logo.webp" type="image/webp" />
@@ -284,7 +284,6 @@ function nav(active = '') {
 
     <nav class="drawer-links">
       ${link('/', 'Home', 'home', icons.compass)}
-      ${link('/track', 'Track a consignment', 'track', icons.radar)}
       ${link('/services', 'Services', 'services', icons.container)}
       ${link('/network', 'Global network', 'network', icons.globe)}
       ${link('/about', 'About us', 'about', icons.anchor)}
@@ -301,7 +300,7 @@ function nav(active = '') {
 
     <div class="drawer-foot">
       <span class="eyebrow">Control tower</span>
-      <a class="drawer-call" href="tel:${esc(site.support_phone).replace(/\s+/g, '')}" data-site="support_phone">${esc(site.support_phone)}</a>
+      <a class="drawer-call" href="mailto:${esc(site.email)}" data-site="email">${esc(site.email)}</a>
       <p class="muted">Staffed 24/7, every day of the year.</p>
     </div>
   </aside>`;
@@ -332,10 +331,8 @@ function footer() {
       </div>
       <div class="col">
         <h5>Support</h5>
-        <a href="/track">Track a consignment</a>
-        <a href="/portal">Customer portal</a>
+  <a href="/portal">Customer portal</a>
         <a href="mailto:${esc(site.email)}" data-site="email">${esc(site.email)}</a>
-        <a href="tel:${esc(site.support_phone).replace(/\s+/g, '')}" data-site="support_phone">${esc(site.support_phone)}</a>
         <span data-site="hours">${esc(site.hours)}</span>
       </div>
     </div>

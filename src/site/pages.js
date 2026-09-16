@@ -976,14 +976,6 @@ module.exports = [
     extraScripts: ['/assets/map/world.js', '/js/fleet-map.js'],
   },
   {
-    file: 'track.html',
-    title: `Track a consignment | ${BRAND}`,
-    description: 'Enter a Paramount tracking number to see every recorded movement, the current location and the estimated delivery.',
-    active: 'track',
-    bodyClass: 'page-track',
-    content: trackContent,
-  },
-  {
     file: 'services.html',
     title: `Services | ${BRAND}`,
     description: 'Air freight, ocean freight, road haulage, rail freight, express courier and contract warehousing from one operating standard.',
@@ -1028,7 +1020,7 @@ module.exports = [
   {
     file: 'contact.html',
     title: `Contact | ${BRAND}`,
-    description: 'Reach the Paramount control tower, the rate desk or the cargo emergency line.',
+    description: 'Reach the Paramount control tower, the rate desk or the Paramount control tower and rate desk.',
     active: 'contact',
     bodyClass: 'page-contact',
     content: contactContent,
